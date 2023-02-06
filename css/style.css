@@ -73,6 +73,7 @@ button .cicle{
 .main-heading{
     width: 100%;
     font-size: 65px;
+    
 }
 .main-heading-2{
     font-size: 50px;
@@ -109,9 +110,6 @@ button .cicle{
 .copyright{
     font-size: 12px;
 }
-
-
-
 .main-section{
     height: 75%;
 }
