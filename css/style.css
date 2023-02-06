@@ -73,7 +73,10 @@ button .cicle{
 }
 .main-heading{
     width: 100%;
-    font-size: 82px;
+    font-size: 100px;
+}
+.main-heading-2{
+    font-size: 93px;
 }
 .community-section{
     position: relative;
@@ -103,7 +106,10 @@ button .cicle{
 }
 @media screen and (max-width: 480px) {
     .main-heading{
-        font-size: 50px;
+        font-size: 65px;
+    }
+    .main-heading-2{
+        font-size: 60px;
     }
     .copyright{       
         font-size: 12px;
