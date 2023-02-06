@@ -87,6 +87,12 @@ button .cicle{
     background-size: cover;
     z-index: 2;
 }
+.first-column{
+    order: 1;
+}
+.second-column{
+    order: 2;
+}
 .footer-background{
     position: relative;
     width: 100%;
@@ -110,6 +116,12 @@ button .cicle{
     }
     .main-heading-2{
         font-size: 60px;
+    }
+    .first-column{
+        order: 2;
+    }
+    .second-column{
+        order: 1;
     }
     .copyright{       
         font-size: 12px;
