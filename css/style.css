@@ -5,63 +5,73 @@
     font-family: 'Outfit';
 }
 
-.font-bagerich{
+.font-bagerich {
     font-family: 'Bagerich';
 }
+
 .overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     top: 0;
     left: 0;
-    background: rgb(5,9,38);
-    background: linear-gradient( rgba(5,9,38,1) 1%, rgba(0,0,0,0) 50%, rgba(5,9,38,1) 99%);
+    background: rgb(5, 9, 38);
+    background: linear-gradient(rgba(5, 9, 38, 1) 1%, rgba(0, 0, 0, 0) 50%, rgba(5, 9, 38, 1) 99%);
     z-index: 1;
 }
-.z-10{
-    z-index: 10 ;
+
+.z-10 {
+    z-index: 10;
 }
-.main-section-background{
+
+.main-section-background {
     background-image: url(../images/image\ 1.png);
     width: 100%;
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.logo{
+
+.logo {
     width: 65px;
 }
-.logo-title{
+
+.logo-title {
     font-size: 18px;
     font-weight: 600;
     margin: -4px;
 }
-.bg-gradient-pin-blue{
-    background: linear-gradient(to right, #c34fbd,#4567aa);
+
+.bg-gradient-pin-blue {
+    background: linear-gradient(to right, #c34fbd, #4567aa);
     padding: 1px;
     border-radius: 8px;
 }
-.nav-link{
+
+.nav-link {
     font-size: 14px;
 }
-.join-btn{
+
+.join-btn {
     padding: 12px 18px;
-    background-color: rgba(5,9,38,1);
+    background-color: rgba(5, 9, 38, 1);
     color: #fff;
     border-radius: 7px;
     font-size: 14px;
     font-weight: 500;
     border: none;
 }
-.main-button{
-   padding:12px 18px;
+
+.main-button {
+    padding: 12px 18px;
     background: linear-gradient(to right, #777FFE, #FE48A1);
     color: #fff;
     border-radius: 5px;
     border: none;
     font-size: 12px;
 }
-button .cicle{
+
+button .cicle {
     position: absolute;
     background-color: #fff;
     width: 100px;
@@ -70,15 +80,18 @@ button .cicle{
     transform: translate(-50%, -50%) scale(0);
     animation: scale 0.5s ease-out;
 }
-.main-heading{
+
+.main-heading {
     width: 100%;
     font-size: 65px;
-    
+
 }
-.main-heading-2{
+
+.main-heading-2 {
     font-size: 50px;
 }
-.community-section{
+
+.community-section {
     position: relative;
     background-image: url(../images/image\ 2.png);
     width: 100%;
@@ -87,43 +100,51 @@ button .cicle{
     background-size: cover;
     z-index: 2;
 }
-.first-column{
+
+.first-column {
     order: 1;
 }
-.second-column{
+
+.second-column {
     order: 2;
 }
-.footer-background{
+
+.footer-background {
     position: relative;
     width: 100%;
     height: 40vh;
     background: #050926;
 }
-.footer-links{
+
+.footer-links {
     padding-top: 100px;
 }
-.border-line{
+
+.border-line {
     border-bottom-style: solid;
     border-bottom-width: 1px;
     color: #fff;
 }
-.copyright{
+
+.copyright {
     font-size: 12px;
 }
-.main-section{
+
+.main-section {
     height: 75%;
 }
-.width-md-50{
+
+.width-md-50 {
     width: 100%;
 }
 
-.main-caption{
+.main-caption {
     text-align: center;
 }
 
-.nav-tog{
+.nav-tog {
     position: relative;
-    padding:0 !important;
+    padding: 0 !important;
     outline: none;
     border: none;
     width: 25px;
@@ -131,10 +152,11 @@ button .cicle{
     background: #fff;
     border-radius: 4px;
 }
-.nav-tog::after{
+
+.nav-tog::after {
     position: absolute;
     content: '';
-    top:10px;
+    top: 10px;
     left: 0;
     width: 25px;
     height: 2px;
@@ -143,43 +165,53 @@ button .cicle{
 }
 
 @media (min-width: 768px) {
-    .main-section h1{
+    .main-section h1 {
         text-align: start;
     }
-    .main-caption{
+
+    .main-caption {
         text-align: start;
     }
-    .main-section{
+
+    .main-section {
         height: 100%;
     }
-    .width-md-50{
+
+    .width-md-50 {
         width: 50%;
     }
-    .main-heading-2{
+
+    .main-heading-2 {
         font-size: 65px;
     }
 }
+
 @media screen and (max-width: 480px) {
-    .first-column{
+    .first-column {
         order: 2;
     }
-    .second-column{
+
+    .second-column {
         order: 1;
     }
-    .copyright{       
+
+    .copyright {
         font-size: 12px;
     }
-    p{
+
+    p {
         align-items: center;
         width: 100%;
     }
-    .font-14px{
+
+    .font-14px {
         font-size: 14px;
     }
-    .footer-background{
+
+    .footer-background {
         position: relative;
         width: 100%;
         height: 20vh;
         background: #050926;
     }
-  }
+}
