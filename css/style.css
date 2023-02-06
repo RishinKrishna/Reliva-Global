@@ -176,4 +176,10 @@ button .cicle{
     .font-14px{
         font-size: 14px;
     }
+    .footer-background{
+        position: relative;
+        width: 100%;
+        height: 20vh;
+        background: #050926;
+    }
   }
