@@ -54,8 +54,7 @@
     border: none;
 }
 .main-button{
-    width: 200px;
-    height: 40px;
+   padding:12px 18px;
     background: linear-gradient(to right, #777FFE, #FE48A1);
     color: #fff;
     border-radius: 5px;
@@ -73,10 +72,10 @@ button .cicle{
 }
 .main-heading{
     width: 100%;
-    font-size: 100px;
+    font-size: 65px;
 }
 .main-heading-2{
-    font-size: 93px;
+    font-size: 50px;
 }
 .community-section{
     position: relative;
@@ -110,13 +109,59 @@ button .cicle{
 .copyright{
     font-size: 12px;
 }
-@media screen and (max-width: 480px) {
-    .main-heading{
-        font-size: 65px;
+
+
+
+.main-section{
+    height: 75%;
+}
+.width-md-50{
+    width: 100%;
+}
+
+.main-caption{
+    text-align: center;
+}
+
+.nav-tog{
+    position: relative;
+    padding:0 !important;
+    outline: none;
+    border: none;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+}
+.nav-tog::after{
+    position: absolute;
+    content: '';
+    top:10px;
+    left: 0;
+    width: 25px;
+    height: 2px;
+    background: #fff;
+    border-radius: 4px;
+}
+
+@media (min-width: 768px) {
+    .main-section h1{
+        text-align: start;
+    }
+    .main-caption{
+        text-align: start;
+    }
+    .main-section{
+        height: 100%;
+    }
+    .width-md-50{
+        width: 50%;
     }
     .main-heading-2{
-        font-size: 60px;
+        font-size: 65px;
     }
+}
+@media screen and (max-width: 480px) {
     .first-column{
         order: 2;
     }
@@ -125,5 +170,12 @@ button .cicle{
     }
     .copyright{       
         font-size: 12px;
+    }
+    p{
+        align-items: center;
+        width: 100%;
+    }
+    .font-14px{
+        font-size: 14px;
     }
   }
