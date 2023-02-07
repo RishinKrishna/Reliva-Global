@@ -185,7 +185,7 @@
         order: 1;
     }
     .overlay{
-        height: 102%;
+        height: 105%;
     }
 
     .copyright {
@@ -209,6 +209,6 @@
     }
 
     .community-section {
-        padding-top: 287px;
+        padding-top: 284px;
     }
 }
